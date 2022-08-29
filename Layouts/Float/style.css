@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+  /* margin: 0;
+  padding: 0; */
+}
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+  color: #444;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+li {
+  font-size: 20px;
+}
+
+/* footer p {
+  font-size: 16px;
+} */
+
+/*
+article header p {
+  font-style: italic;
+}
+*/
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related {
+  list-style-type: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+body {
+  /* background-color: #aaa; */
+  position: relative;
+}
+
+li:first-child {
+  color: red;
+}
+
+li:last-child {
+  color: orange;
+}
+
+li:nth-child(even) {
+  color: pink;
+}
+
+article p:first-child {
+  background-color: blue;
+}
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: black;
+}
+/* LVHA */
+
+.big {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* F L O A T S */
+
+.author-img {
+  /* display: block; */
+  float: left;
+}
+.author {
+  margin-top: 10px;
+  float: left;
+  /* padding-left: 80px; */
+
+  margin-left: 20px;
+}
+
+.main-header h1 {
+  float: left;
+  /* background-color: red; */
+  display: block;
+}
+
+.main-header nav {
+  float: right;
+  /* background-color: blue; */
+  display: block;
+  margin-top: 10px;
+}
+.main-header nav a {
+  display: inline-block;
+  font-size: large;
+  padding: 10px;
+}
+
+.clear {
+  clear: both;
+}
+
+article {
+  float: left;
+  width: 70%;
+  /* margin-right: 5px; */
+  padding: 0px 10px;
+  margin-bottom: 77px;
+}
+
+aside {
+  float: right;
+  width: 30%;
+}
+aside img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 10px 10px;
+  padding-right: 20px;
+}
+aside ul li {
+  text-align: center;
+  margin-left: 10px;
+}
+
+ul {
+  padding: 0;
+  margin-left: 5px;
+}
+
+/* footer {
+  position: absolute;
+  bottom: 0;
+} */
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+footer {
+  display: block;
+  width: 100%;
+
+  /* background-color: pink; */
+  position: absolute;
+  bottom: 0;
+}
+
+footer p {
+  text-align: center;
+}
