@@ -40,6 +40,63 @@
         margin: 40px;
 
         /* FLEXBOX */
+        display: flex;
+
+        /* 
+        //// //// Vertical adjustments
+         */
+        /* align-items: stretch;   default behavior */
+        align-items: center;
+        /* align-items: flex-start; */
+        /* align-items: flex-end; */
+
+        /* 
+        //// //// Horisontal adjustments 
+        */
+        /* justify-content: flex-start;    default behavior*/
+        /* justify-content: center; */
+        /* justify-content: space-between; */
+        /* justify-content: flex-end; */
+
+        /* 
+        //// //// Gap property
+        */
+        /* gap: 30px; */
+      }
+      .el {
+        /* margin-right: 30px; */
+        /* DEFAULTS */
+        /* flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto; */
+        /* flex-basis: 200px; */
+        /* flex-shrink: 1;
+        flex-grow: 1; */
+
+        /* 
+        flex shortcut
+        flex: (grow) (shrink) (basis)
+        flex: 0 0 200px;    DEFAULT
+        */
+        flex: 1;
+      }
+
+      .el--1 {
+        align-self: flex-start;
+        /* order: 2; */
+        flex-grow: 2;
+      }
+
+      .el--5 {
+        /* stretch is a default behavior */
+        align-self: stretch;
+        order: 1;
+        /* flex-grow: 2; */
+      }
+      .el--6 {
+        /* order: 0   default behavior */
+        /* - value goes first, + value goes last  */
+        order: -1;
       }
     </style>
   </head>
@@ -50,9 +107,9 @@
       <div class="el el--3">CSS</div>
       <div class="el el--4">are</div>
       <div class="el el--5">amazing</div>
-      <div class="el el--6">languages</div>
-      <div class="el el--7">to</div>
-      <div class="el el--8">learn</div>
+      <!-- <div class="el el--6">languages</div> -->
+      <!-- <div class="el el--7">to</div>
+      <div class="el el--8">learn</div> -->
     </div>
   </body>
 </html>
