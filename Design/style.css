@@ -129,7 +129,7 @@ img {
 .features-text {
   font-size: 18px;
   line-height: 1.7;
-  color: #e6fcf5;
+  /* color: #e6fcf5; */
 }
 .testimonial-author {
   color: #c3fae8;
