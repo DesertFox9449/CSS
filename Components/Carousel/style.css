@@ -1,0 +1,126 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* 
+Main color: #087f5b
+Gray color: #343a40
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "inter", sans-serif;
+  color: #343a40;
+  line-height: 1;
+}
+
+img {
+  height: 200px;
+  border-radius: 8px;
+  transform: scale(1.5);
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.25);
+}
+
+.carousel {
+  width: 800px;
+  margin: 100px auto;
+  padding: 32px 48px 32px 86px;
+  background-color: #087f5b;
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  column-gap: 86px;
+  /* grid-template-columns: auto auto 1fr auto; */
+  position: relative;
+}
+
+/* 
+testimonial
+testimonial-text
+testimonial-author
+testimonial-job
+*/
+.testimonial {
+}
+
+.testimonial-text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 32px;
+  color: #e6fcf5;
+}
+
+.testimonial-author {
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: #c3fae8;
+}
+
+.testimonial-job {
+  font-size: 12px;
+  color: #c3fae8;
+}
+
+.btn {
+  position: absolute;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 0.5px solid #c3fae8;
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn--left {
+  /* left: -20px; */
+  left: 0;
+  transform: translate(-50%, 0);
+}
+
+.btn--right {
+  /* right: -20px; */
+  right: 0;
+  transform: translate(50%, 0);
+}
+
+.btn-icon {
+  width: 24px;
+  height: 24px;
+  stroke: #087f5b;
+}
+
+.dots {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  display: flex;
+  gap: 10px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: #fff;
+  border: 2px solid #087f5b;
+  border-radius: 50%;
+}
+
+.active--dot {
+  background-color: #087f5b;
+}
