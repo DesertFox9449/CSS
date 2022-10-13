@@ -119,6 +119,7 @@ testimonial-job
   background-color: #fff;
   border: 2px solid #087f5b;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .active--dot {
