@@ -25,7 +25,7 @@
 .main-nav-list {
   list-style-type: none;
   display: flex;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .main-nav-list li {
@@ -65,6 +65,7 @@
 /*********************************/
 /*  HERO SECTION  */
 /*********************************/
+
 .section-hero {
   /* background-color: #fdf2e9; */
   background-color: #fae5d3;
