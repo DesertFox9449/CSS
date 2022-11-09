@@ -13,6 +13,7 @@
   /* sticky header */
   height: 9.6rem;
   padding: 0 4.8rem;
+  position: relative;
 }
 .logo {
   height: 2.2rem;
@@ -60,6 +61,24 @@
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   background-color: #cf711f;
+}
+
+/* MOBILE */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }
 
 /*********************************/
@@ -412,8 +431,10 @@
   top: 6%;
   /* right: -90px; */
   right: -23%;
-  width: 300px;
-  height: 40px;
+  /* width: 300px;
+  height: 40px; */
+  width: 30rem;
+  height: 4rem;
   background-color: #ffd43b;
 
   transform: rotate(45deg);
