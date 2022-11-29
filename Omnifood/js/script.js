@@ -85,6 +85,13 @@ checkFlexGap();
 // https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js
 
 /*
+// New
+ document.body.appendChild(flex);
+  var isSupported = flex.scrollHeight === 1;
+  flex.parentNode.removeChild(flex);
+  console.log(isSupported);
+
+
   .no-flexbox-gap .main-nav-list li:not(:last-child) {
     margin-right: 4.8rem;
   }
